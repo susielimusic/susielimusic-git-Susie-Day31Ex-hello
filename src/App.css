@@ -1,0 +1,52 @@
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    border: 20px solid black;
+    margin-left:12%;
+  }
+
+.headline {
+    color:white;
+    font-size:300%;
+    width: 200px;
+    left: 100px;
+  }
+
+.smallTitle {
+    color: white;
+    width: 200px;
+}
+
+.button {
+    color: blue;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 24px;
+    align-content: center;
+    display:block;
+    margin-top:2%;
+    margin-bottom:12%
+
+}
+
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  width: 300%;
+}
+
+.topright {
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  font-size: 180px;
+}
+
+.flex-container {
+  display: flex;
+}
